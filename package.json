@@ -1,0 +1,58 @@
+{
+  "name": "hefan-freshbook",
+  "version": "1.0.0",
+  "description": "freshbook project",
+  "author": "李春伟 <lichunwei@hefantv.com>",
+  "private": true,
+  "scripts": {
+    "server": "backpack start",
+    "nuxtBuild": "nuxt build",
+    "dev": "backpack dev",
+    "build": "backpack build",
+    "pro": "backpack pro",
+    "precommit": "npm run lint",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "config": {
+    "nuxt": {
+      "host": "127.0.0.1",
+      "port": "9018"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "boom": "^7.1.1",
+    "brace-expansion": "^1.1.8",
+    "cross-env": "^5.0.1",
+    "debug": "^3.1.0",
+    "hefantv-backpack": "^0.1.6",
+    "inflight": "^1.0.6",
+    "ioredis": "^3.2.2",
+    "iview": "^2.7.3",
+    "jsonwebtoken": "^8.1.0",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-compress": "^2.0.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^7.3.0",
+    "koa-session2": "^2.2.5",
+    "lodash": "^4.17.4",
+    "mavon-editor": "^2.4.7",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.3",
+    "node-sass": "^4.7.2",
+    "nuxt": "^1.0.0-rc11",
+    "opn": "^4.0.2",
+    "qa": "^0.0.1",
+    "sass-loader": "^6.0.6",
+    "source-map-support": "^0.4.15",
+    "ulid": "^2.2.3",
+    "vue-infinite-scroll": "^2.0.2",
+    "vue-markdown": "^2.2.4",
+    "vue-quill-editor": "^3.0.4",
+    "wrappy": "^1.0.2",
+    "ws": "^2.2.3"
+  }
+}

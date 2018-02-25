@@ -1,0 +1,187 @@
+
+.searchContainer{
+  padding:50px;
+  width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+
+  text-align: left;
+
+  font-size: 14px;
+  //padding:30px 0 ;
+  background: #fff;
+
+  a{
+    color: #0366d6;
+    text-decoration: none;
+  }
+
+  svg:not(:root) {
+    overflow: hidden;
+  }
+
+
+  .octicon {
+    vertical-align: text-bottom;
+  }
+  .octicon {
+    display: inline-block;
+    vertical-align: text-top;
+    fill: currentColor;
+  }
+  &::after{
+    content:'';
+    display: block;
+    clear: both;
+  }
+  .booklist{
+    width: 75%;
+    float: left;
+    padding-right:40px;
+    .resultNum{
+      font-size:20px;
+      padding:30px 0 ;
+      font-family: Microsoft YaHei;
+    }
+    .box{
+      margin-bottom: 50px;
+      li{
+        border-top:1px solid #eee;
+        padding: 25px 0 15px 0;
+        &::after{
+          content:'';
+          display: block;
+          clear: both;
+        }
+        >div{
+          float: left;
+          padding-right: 16px !important;
+
+        }
+        .desc{
+          width:66%;
+          h3{
+            color:#535761;
+            font-size: 18px;
+            padding-bottom:5px;
+            cursor: pointer;
+            &:hover{
+              color: #0366d6;
+            }
+          }
+          .brief{
+            font-size: 12px;
+            width: 75%;
+            color: #7e8082;
+            line-height: 20px;
+            margin-top: 10px;
+            overflow : hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+          }
+          .mark{
+            margin:10px 0;
+            span{
+              display: inline-block;
+              padding: 3px 9px;
+              margin: 0 5px 5px 0;
+              white-space: nowrap;
+              background-color: #f1f8ff;
+              border-radius: 3px;
+              &:hover{
+                background-color: #cbdcec;
+              }
+            }
+          }
+          .time{
+            font-size: 12px;
+            color: #7e8082;
+          }
+
+
+        }
+        .group{
+          width:16%;
+        }
+        .stargazers{
+          width:16%;
+          &:hover{
+            color: #0366d6;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .pageBox{
+      float:right;
+      padding-right: 50px;
+    }
+  }
+  .groupBox{
+    margin:35px 0 5px;
+  }
+}
+.categoryBox {
+  text-align: left;
+  width: 240px;
+  background: #fff;
+  float: right;
+  border: 1px #e1e4e8 solid;
+  padding: 16px;
+  > h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  ul {
+    li {
+      padding: 0px 10px;
+      line-height: 30px;
+      height: 30px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      color: #586069;
+      font-size: 12px;
+      cursor: pointer;
+      span {
+        float: right;
+        font-weight: bold;
+      }
+      .close {
+        font-size: 20px;
+        color: #fff;
+      }
+
+      /*a {
+        color: #586069;
+        font-size: 12px;
+
+        span {
+          float: right;
+          font-weight: bold;
+        }
+        .close {
+          font-size: 20px;
+          color: #fff;
+        }
+
+      }*/
+      &:hover {
+        background: #dcdcdc70;
+      }
+
+    }
+    .select {
+      background: #0366d6;
+      color: #fff !important;
+      cursor: auto;
+      &:hover {
+        background: #0366d6;
+      }
+
+    }
+
+  }
+}

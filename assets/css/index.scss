@@ -1,0 +1,25 @@
+.container {
+
+  .content{
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    &:after{
+      content: '';
+      display: block;
+      clear: both;
+    }
+    .bookBox{
+      width: 800px;
+      float: left;
+
+    }
+    .categorybox{
+      float: right;
+      margin-right:-80px;
+    }
+  }
+
+
+}

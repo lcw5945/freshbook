@@ -1,0 +1,73 @@
+@import './iconfont/iconfont.css';
+@import './header.scss';
+@import './user/profile.scss';
+@import './user/bookCard.scss';
+@import './user/userInfo.scss';
+@import './user/userManage.scss';
+@import './book/search.scss';
+@import './book/comments.scss';
+@import './book/detail.scss';
+@import './login/index.scss';
+@import './write/index.scss';
+@import './index.scss';
+
+html,
+body {
+    background-color: #fff;
+    color: #000;
+    letter-spacing: 0.5px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+    color: #000;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    max-height: 289px;
+}
+
+.g-color {
+    color: #46a3ff;
+}
+
+.g-colorHover {
+    color: #66b3ff;
+}
+
+.g-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.g-clearfix:after {
+    content: ' ';
+    height: 0;
+    display: block;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.g-clearfix {
+    zoom: 1;
+}
+
+.ivu-notice {
+    z-index: 99999 !important;
+}

@@ -1,0 +1,28 @@
+.userManage{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background: #fff;
+    height: 600px;
+    position: relative;
+
+    .tableList{
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .pageCount{
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .warnText{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 50px;
+    }
+}

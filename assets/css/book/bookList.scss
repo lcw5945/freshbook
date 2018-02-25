@@ -1,0 +1,157 @@
+html,
+body {
+    background-color: #eee !important;
+}
+
+a:hover {
+    color: #000;
+}
+
+.book-list {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-bottom: 0 none;
+    background-color: #fff;
+    >.book-item {
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        border-bottom: 1px solid #ddd;
+        cursor: pointer;
+        text-align: left;
+        box-sizing: border-box;
+        position: relative;
+        .top-line {
+            color: #aaa;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            overflow: hidden;
+            a {
+                display: inline-block;
+                color: #aaa;
+                line-height: 20px;
+                margin-right: 5px;
+                .nickname {
+                    //float: left;
+                    //line-height: 20px;
+                    color: #444;
+                    font-size: 13px;
+                }
+            }
+
+            .headimgurl {
+                float: left;
+                width: 20px;
+                height: 20px;
+                border-radius: 20px;
+                margin-right: 5px;
+            }
+        }
+
+        >a {
+            display: block;
+            width: 100%;
+            height: 100%;
+
+            .title {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 1;
+                margin-bottom: 10px;
+            }
+            .brief {
+                overflow: hidden;
+                line-height: 22px;
+                color: #444;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+            }
+            >.cover {
+                position: absolute;
+                top: 15px;
+                right: 20px;
+                width: 150px;
+                height: 120px;
+            }
+            >.buttons {
+                height: 25px;
+                margin-top: 10px;
+                .comment {
+                    float: left;
+                    height: 100%;
+                    padding-left: 22px;
+                    padding-right: 2px;
+                    border: 1px solid transparent;
+                    background-size: 20px 20px;
+                    background-repeat: no-repeat;
+                    background-position: 0px 50%;
+                    line-height: 25px;
+                    color: #b2bac2;
+                }
+                .category {
+                    float: left;
+                    height: 100%;
+                    line-height: 25px;
+                    margin-right: 10px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    border-radius: 3px;
+                    color: #47a4ff;
+                    border: 1px solid #47a4ff;
+                }
+                .zan {
+                    margin-top: 1px;
+                    float: left;
+                    height: 100%;
+                    padding-left: 2px;
+                    padding-right: 2px;
+
+                    line-height: 25px;
+                    color: #b2bac2;
+                    >span,
+                    i {
+                        margin: 0 2px;
+                        float: left;
+                    }
+                }
+                .zaned {
+                    color: #47a4ff;
+                }
+                .comment {
+                    background-image: url(../../../assets/img/book/comment.svg);
+                }
+
+                button {
+                    width: 50px;
+                    height: 25px;
+                    font-size: 12px;
+                    line-height: 25px;
+                    margin-left: 20px;
+                    color: #fff;
+                    background: #2d8cf0;
+                    border: 0;
+                    border-radius: 3px;
+                    cursor: pointer;
+                }
+                .delete {
+                    float: left;
+                    height: 100%;
+                    padding-left: 6px;
+                    padding-right: 2px;
+                    border: 1px solid transparent;
+                    background-size: 20px 20px;
+                    background-repeat: no-repeat;
+                    background-position: 0 50%;
+                    line-height: 26px;
+                    color: #b2bac2;
+                    background: none
+                }
+            }
+        }
+    }
+}

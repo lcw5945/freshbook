@@ -1,0 +1,72 @@
+body {
+    background-color: #eee!important;
+}
+
+#userInfoContainer {
+    width: 1000px;
+    min-height: 700px;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    .userInfoBox {
+        width: 205px;
+        float: left;
+        color: #6a737d;
+        border-bottom: 1px solid #eaecef;
+
+        img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        p {
+            height: 24px;
+            margin: 16px 0;
+        }
+
+        .username {
+            font-size: 14px;
+            color: #24292e;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            margin: 5px auto 20px;
+        }
+    }
+
+    .opusBox {
+        width: 735px;
+        float: right;
+        .ivu-menu {
+            margin-bottom: 10px;
+            height: 40px;
+            line-height: 40px;
+            z-index: 1;
+        }
+        .ivu-menu-horizontal .ivu-menu-item,
+        .ivu-menu-horizontal .ivu-menu-submenu {
+            padding: 0 10px;
+            margin: 0 10px;
+        }
+
+        .ivu-menu-item {
+            width: 100px;
+            text-align: center;
+        }
+
+        .tabBadge {
+            position: absolute;
+            right: 0;
+            top: 8px;
+
+
+            >.ivu-badge-count {
+                background: #eee;
+                color: #586069;
+            }
+        }
+    }
+}
